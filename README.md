@@ -6,7 +6,7 @@ In first week i revised my python basics in which it includes if-else statements
 
 Then i learned about NumPy Library :
 NumPy Arrays ,  
-Creating arrays (np.array, np.zeros, np.ones, np.arange, np.linspace)  ,
+Creating arrays (np.array, np.zeros, np.ones, np.arange, np.linspace)  ,  
 Array types: 1D, 2D, and multidimensional arrays
 Data types (dtype)
 Array attributes (shape, ndim, size, itemsize)
