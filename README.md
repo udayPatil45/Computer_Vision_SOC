@@ -10,14 +10,7 @@ Creating arrays using  (np.array, np.zeros, np.ones, np.arange, np.linspace)  , 
 Array types: 1D, 2D, and multidimensional arrays ,Array attributes (shape, ndim, size, itemsize) ,Array Indexing and Slicing ,Boolean indexing and masking ,Array Operations ,Element-wise operations ,Broadcasting, Vectorized operations  ,Comparison and logical operations 
 after this array operation i learned about the mathematical structures of numPy Library in which:   
 Mathematical and Statistical Functions     
-Aggregate functions (sum, mean, std, var, min, max)    
-Axis-based operations     
-Mathematical functions (np.exp, np.sqrt, np.log, np.sin, np.cos, etc.)   
-Reshaping and Manipulating Arrays  
-Linear Algebra with NumPy    
-Matrix operations: dot product, matrix multiplication
-Solving linear equations 
-Sampling and probability distributions
+Aggregate functions (sum, mean, std, var, min, max) , Axis-based operations  ,Mathematical functions (np.exp, np.sqrt, np.log, np.sin, np.cos, etc.)  ,Reshaping and Manipulating Arrays  ,Linear Algebra with NumPy ,Matrix operations: dot product, matrix multiplication , Solving linear equations , Sampling and probability distributions
 Difference between shallow and deep copy    
 Then i read about some Random Functions :    
 Random Module in NumPy   
