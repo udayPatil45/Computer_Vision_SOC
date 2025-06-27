@@ -58,3 +58,8 @@ Band-Pass and Band-Stop Filters
 Allow or suppress frequencies in a specific range.
 
 I implemented these filters in the frequency domain using multiplication with the Fourier-transformed image, and then used inverse FFT to return to the spatial domain.
+
+
+WEEK 4 
+
+in this week i learned further more about image processing. this week was mainly code based so uploaded that work in image processing.ipynb file.
