@@ -5,23 +5,26 @@ WEEK 1
 In first week i revised my python basics in which it includes if-else statements , loops concepts ( while , for) and datastructures like list , sets , strings , dictionary etc. and also related to file handling in which write , read , append modes. 
 
 Then i learned about NumPy Library :
-NumPy Arrays ,  
-Creating arrays (np.array, np.zeros, np.ones, np.arange, np.linspace)  ,  
-Array types: 1D, 2D, and multidimensional arrays ,Data types (dtype)  ,Array attributes (shape, ndim, size, itemsize) ,Array Indexing and Slicing ,Indexing 1D, 2D arrays ,Boolean indexing and masking ,Array Operations ,Element-wise operations ,Broadcasting, Vectorized operations  ,Comparison and logical operations    
+in which i learned about NumPy Arrays in which :  
+Creating arrays using  (np.array, np.zeros, np.ones, np.arange, np.linspace)  , Then  
+Array types: 1D, 2D, and multidimensional arrays ,Array attributes (shape, ndim, size, itemsize) ,Array Indexing and Slicing ,Boolean indexing and masking ,Array Operations ,Element-wise operations ,Broadcasting, Vectorized operations  ,Comparison and logical operations 
+after this array operation i learned about the mathematical structures of numPy Library in which:   
 Mathematical and Statistical Functions     
 Aggregate functions (sum, mean, std, var, min, max)    
 Axis-based operations     
 Mathematical functions (np.exp, np.sqrt, np.log, np.sin, np.cos, etc.)   
-Reshaping and Manipulating Arrays     
+Reshaping and Manipulating Arrays  
+Linear Algebra with NumPy    
+Matrix operations: dot product, matrix multiplication
+Solving linear equations 
+Sampling and probability distributions
 Difference between shallow and deep copy    
-arr.copy() vs simple assignment    
+Then i read about some Random Functions :    
 Random Module in NumPy   
 np.random.rand, randn, randint    
 Seed setting (np.random.seed())    
-Sampling and probability distributions    
-Linear Algebra with NumPy    
-Matrix operations: dot product, matrix multiplication
-Solving linear equations   
+    
+
 File I/O    
 Saving and loading arrays   
 
