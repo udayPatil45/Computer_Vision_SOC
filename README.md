@@ -25,7 +25,7 @@ np.random.rand, randn, randint
 Seed setting (np.random.seed())
 Sampling and probability distributions
 Linear Algebra with NumPy
-Matrix operations: dot product, matrix multiplication (@, np.dot)
+Matrix operations: dot product, matrix multiplication
 np.linalg.inv, np.linalg.det, np.linalg.eig
 Solving linear equations: np.linalg.solve
 File I/O
