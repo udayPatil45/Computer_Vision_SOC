@@ -68,7 +68,10 @@ to see
 LINK - [ https://colab.research.google.com/github/udayPatil45/Computer_Vision_SOC/blob/main/image_processing.ipynb ]
 same file i also uploaded in repo use this link if that block is not opening.
 
+
  Week 5: Foundations of Neural Networks and Backpropagation
+
+
 🔹 Focus
 This week was dedicated to developing a strong conceptual and mathematical understanding of how neural networks operate and learn using gradient descent and backpropagation. Unlike Weeks 1–4, this content shifts toward the core foundations of machine learning and deep learning, which are essential for modern computer vision and AI applications.
 
