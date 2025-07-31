@@ -75,83 +75,20 @@ This week was dedicated to developing a strong conceptual and mathematical under
 🔹 Key Learnings
 1. Structure of Neural Networks
 A neural network is built from layers of neurons:
-
 Input Layer: Receives the raw data (e.g., pixels of an image).
-
 Hidden Layers: Perform transformations using weights and biases.
-
 Output Layer: Produces the prediction (e.g., class probabilities).
-
-Each neuron computes:
-
-𝑧
-=
-𝑤
-⋅
-𝑥
-+
-𝑏
-z=w⋅x+b
-𝑎
-=
-𝑓
-(
-𝑧
-)
-a=f(z)
-where 
-𝑓
-f is an activation function (ReLU, Sigmoid, Tanh).
 
 2. Gradient Descent
 The goal: Minimize the loss function (difference between predicted and true values).
-
-Gradient descent updates weights in the opposite direction of the gradient:
-
-𝑤
-:
-=
-𝑤
-−
-𝜂
-∂
-𝐿
-∂
-𝑤
-w:=w−η 
-∂w
-∂L
-​
- 
-𝑏
-:
-=
-𝑏
-−
-𝜂
-∂
-𝐿
-∂
-𝑏
-b:=b−η 
-∂b
-∂L
-​
- 
-where 
-𝜂
-η is the learning rate.
+Gradient descent updates weights in the opposite direction of the gradient
 
 3. Backpropagation Intuition
 Forward Pass: Compute outputs from inputs.
-
 Backward Pass: Use chain rule of calculus to compute gradients of loss w.r.t. each parameter.
-
 Update Parameters: Apply gradient descent to improve the network’s performance.
-
 Backprop ensures efficient computation of derivatives in deep networks.
 
 4. Connection to Applications
 These principles are the foundation of image classification tasks, where models learn to map pixel inputs → class probabilities.
-
 Advanced architectures (CNNs, ResNets, Transformers) are built on these basics.
