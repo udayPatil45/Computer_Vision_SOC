@@ -95,3 +95,26 @@ Backprop ensures efficient computation of derivatives in deep networks.
 4. Connection to Applications
 These principles are the foundation of image classification tasks, where models learn to map pixel inputs → class probabilities.
 Advanced architectures (CNNs, ResNets, Transformers) are built on these basics.
+
+
+Week 6 - Neural Networks and Image Classification
+Overview:
+In Week 6, I explored how neural networks are applied to image classification tasks using PyTorch, with supporting materials also available in TensorFlow. This week focused on understanding how neural networks detect, classify, and interpret visual patterns.
+
+Key Learnings:
+
+Image Classification Using Simple Neural Networks:
+Understood how to build basic image classifiers from scratch using PyTorch.
+Learned how neural networks process image data and classify them into categories.
+
+Deep Learning Visual Pattern Perception:
+Studied how deep models detect edges, textures, and complex features.
+Visualized internal layer activations to better grasp feature extraction.
+
+Using Custom Datasets:
+Learned the process of preparing and loading custom datasets.
+Gained hands-on experience with Dataset and DataLoader in PyTorch.
+
+Foundational Computer Vision Techniques:
+Applied essential vision techniques like transformations, normalization, and augmentation.
+Implemented modular and scalable deep learning pipelines.
