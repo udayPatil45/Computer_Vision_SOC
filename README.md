@@ -118,3 +118,44 @@ Gained hands-on experience with Dataset and DataLoader in PyTorch.
 Foundational Computer Vision Techniques:
 Applied essential vision techniques like transformations, normalization, and augmentation.
 Implemented modular and scalable deep learning pipelines.
+
+
+Final Model
+
+
+In this focused on replicating a cutting-edge machine learning research paper—specifically, the Vision Transformer (ViT) model. This experience helped me bridge the gap between theory and practice by implementing a state-of-the-art deep learning architecture from scratch using PyTorch.
+
+1. Understanding Paper Replication
+I began by learning what it means to replicate a machine learning paper. Instead of just reading theoretical concepts, I practiced interpreting the original research—math equations, architecture diagrams, and textual descriptions—and converting them into functioning, testable code. This process sharpened my ability to read and understand complex academic literature and made me more confident in applying research-level techniques to real-world problems.
+
+2. Deep Dive into Vision Transformers (ViT)
+The core of the project was understanding and implementing the Vision Transformer (ViT) architecture. Unlike traditional Convolutional Neural Networks (CNNs), ViT splits an image into smaller fixed-size patches and treats each patch like a token in NLP. I learned how these patches are linearly projected into embedding vectors and how positional embeddings are added to retain spatial information. The embedded patches are then passed through multiple transformer encoder blocks, each containing multi-head self-attention layers and feedforward networks.
+
+This approach fundamentally changed how I view image classification, showing that CNNs are not the only way to process visual data. I also understood how attention mechanisms help models focus on the most relevant parts of an image when making predictions.
+
+3. PyTorch Implementation Skills
+Throughout the project, I significantly improved my PyTorch skills. I implemented custom modules like:
+
+Patch Embedding layers using Conv2D
+
+Transformer encoder blocks using LayerNorm, MultiheadAttention, and MLPs
+
+The complete ViT model, including its classification head
+
+I also gained experience in organizing my model code into reusable, modular components—a best practice in real-world machine learning development.
+
+4. Dataset Handling and Training
+The model was trained on a small but realistic dataset called FoodVision Mini, containing images of pizza, steak, and sushi. I learned to preprocess images using torchvision.transforms, load them efficiently using DataLoader, and train the model using a standard PyTorch loop with CrossEntropyLoss and the Adam optimizer. I monitored training and validation accuracy to assess performance and adjusted hyperparameters where necessary.
+
+5. Broader Takeaways
+This project deepened my understanding of:
+
+How to approach paper replication projects methodically
+The structure and purpose of modern computer vision research
+The real-world application of transformer-based models
+Writing clean, modular, and reusable deep learning code
+
+
+Conclusion
+By completing this Final model, I developed a strong foundation in paper replication, model implementation, and transformer-based vision models. I now feel more confident in reading academic papers, building models from scratch, and experimenting with innovative architectures for various machine learning tasks.
+
