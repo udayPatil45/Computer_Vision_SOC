@@ -157,15 +157,18 @@ The real-world application of transformer-based models
 Writing clean, modular, and reusable deep learning code
 
 Conclusion
-By completing this Final model, I developed a strong foundation in paper replication, model implementation, and transformer-based vision models. I now feel more confident in reading academic papers, building models from scratch, and experimenting with innovative architectures for various machine learning tasks.
+By completing this Final model, I developed a strong foundation in paper replication, model implementation, and transformer-based vision models. I now feel more confident in reading academic papers, building models from scratch, and experimenting with innovative architectures for various machine learning tasks
+
 
 
 Project Reflection
 
 Learnings
+
 Over the course of this project, I gained a comprehensive understanding of computer vision, signal processing, and deep learning. I started with Python and NumPy fundamentals, gradually moving toward Fourier Transforms, convolutions, image filtering, and neural networks. Later, I explored modern architectures like Vision Transformers (ViT), gaining exposure to state-of-the-art research methods.
 
 Concepts Studied
+
 Python & NumPy Basics: Control structures, file handling, NumPy arrays, broadcasting, linear algebra, random functions, file I/O.
 Signal & Image Processing: Fourier Transform, convolution, correlation, and implementation of low-pass, high-pass, and band-pass filters.
 Neural Networks Foundations: Gradient descent, backpropagation, forward/backward passes, loss minimization.
@@ -173,6 +176,7 @@ Image Classification with PyTorch: Dataset handling, DataLoader, transformations
 Vision Transformers: Patch embeddings, positional encodings, self-attention, encoder blocks, and modular model design.
 
 Progress Made
+
 Built a strong foundation in NumPy and Python for scientific computing.
 Successfully implemented convolution filters for edge detection, blurring, and sharpening.
 Designed basic neural network classifiers for image data using PyTorch.
@@ -180,6 +184,7 @@ Replicated a cutting-edge ML research paper (Vision Transformer) with modular an
 Improved ability to read, interpret, and implement concepts from academic literature.
 
 Mistakes & Improvements
+
 Initially struggled with Fourier Transform intuition: Spent extra time revisiting frequency domain concepts.
 Faced difficulties debugging PyTorch DataLoader: Fixed by carefully checking input dimensions and preprocessing steps.
 Mismanagement of hyperparameters in training: Learned the importance of tuning learning rate, batch size, and epochs for optimal results.
