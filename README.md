@@ -21,6 +21,7 @@ Seed setting (np.random.seed())
 File I/O    
 Saving and loading arrays   
 
+
 WEEK 2-3
 
 In next weeks i learned about signal processing and basics of image processing from sources like GFG and from video lectures provided.
@@ -69,9 +70,9 @@ LINK - [ https://colab.research.google.com/github/udayPatil45/Computer_Vision_SO
 same file i also uploaded in repo use this link if that block is not opening.
 
 
+
+ 
  Week 5: Foundations of Neural Networks and Backpropagation
-
-
 🔹 Focus
 This week was dedicated to developing a strong conceptual and mathematical understanding of how neural networks operate and learn using gradient descent and backpropagation. Unlike Weeks 1–4, this content shifts toward the core foundations of machine learning and deep learning, which are essential for modern computer vision and AI applications.
 
@@ -97,6 +98,7 @@ These principles are the foundation of image classification tasks, where models 
 Advanced architectures (CNNs, ResNets, Transformers) are built on these basics.
 
 
+
 Week 6 - Neural Networks and Image Classification
 Overview:
 In Week 6, I explored how neural networks are applied to image classification tasks using PyTorch, with supporting materials also available in TensorFlow. This week focused on understanding how neural networks detect, classify, and interpret visual patterns.
@@ -120,8 +122,9 @@ Applied essential vision techniques like transformations, normalization, and aug
 Implemented modular and scalable deep learning pipelines.
 
 
-Final Model
 
+
+Final Model
 
 In this focused on replicating a cutting-edge machine learning research paper—specifically, the Vision Transformer (ViT) model. This experience helped me bridge the gap between theory and practice by implementing a state-of-the-art deep learning architecture from scratch using PyTorch.
 
@@ -135,13 +138,9 @@ This approach fundamentally changed how I view image classification, showing tha
 
 3. PyTorch Implementation Skills
 Throughout the project, I significantly improved my PyTorch skills. I implemented custom modules like:
-
 Patch Embedding layers using Conv2D
-
 Transformer encoder blocks using LayerNorm, MultiheadAttention, and MLPs
-
 The complete ViT model, including its classification head
-
 I also gained experience in organizing my model code into reusable, modular components—a best practice in real-world machine learning development.
 
 4. Dataset Handling and Training
@@ -155,7 +154,36 @@ The structure and purpose of modern computer vision research
 The real-world application of transformer-based models
 Writing clean, modular, and reusable deep learning code
 
-
 Conclusion
 By completing this Final model, I developed a strong foundation in paper replication, model implementation, and transformer-based vision models. I now feel more confident in reading academic papers, building models from scratch, and experimenting with innovative architectures for various machine learning tasks.
+
+
+Project Reflection
+
+Learnings
+Over the course of this project, I gained a comprehensive understanding of computer vision, signal processing, and deep learning. I started with Python and NumPy fundamentals, gradually moving toward Fourier Transforms, convolutions, image filtering, and neural networks. Later, I explored modern architectures like Vision Transformers (ViT), gaining exposure to state-of-the-art research methods.
+
+Concepts Studied
+Python & NumPy Basics: Control structures, file handling, NumPy arrays, broadcasting, linear algebra, random functions, file I/O.
+Signal & Image Processing: Fourier Transform, convolution, correlation, and implementation of low-pass, high-pass, and band-pass filters.
+Neural Networks Foundations: Gradient descent, backpropagation, forward/backward passes, loss minimization.
+Image Classification with PyTorch: Dataset handling, DataLoader, transformations, normalization, and model training.
+Vision Transformers: Patch embeddings, positional encodings, self-attention, encoder blocks, and modular model design.
+
+Progress Made
+Built a strong foundation in NumPy and Python for scientific computing.
+Successfully implemented convolution filters for edge detection, blurring, and sharpening.
+Designed basic neural network classifiers for image data using PyTorch.
+Replicated a cutting-edge ML research paper (Vision Transformer) with modular and reusable code.
+Improved ability to read, interpret, and implement concepts from academic literature.
+
+Mistakes & Improvements
+Initially struggled with Fourier Transform intuition: Spent extra time revisiting frequency domain concepts.
+Faced difficulties debugging PyTorch DataLoader: Fixed by carefully checking input dimensions and preprocessing steps.
+Mismanagement of hyperparameters in training: Learned the importance of tuning learning rate, batch size, and epochs for optimal results.
+Code modularity: At first, my implementations were less organized. Later, I improved by structuring code into reusable modules
+
+
+
+
 
