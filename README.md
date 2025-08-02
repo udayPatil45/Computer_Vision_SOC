@@ -101,6 +101,8 @@ Advanced architectures (CNNs, ResNets, Transformers) are built on these basics.
 
 Week 6 - Neural Networks and Image Classification
 Overview:
+
+
 In Week 6, I explored how neural networks are applied to image classification tasks using PyTorch, with supporting materials also available in TensorFlow. This week focused on understanding how neural networks detect, classify, and interpret visual patterns.
 
 Key Learnings:
